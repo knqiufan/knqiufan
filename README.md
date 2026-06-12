@@ -11,9 +11,9 @@
   </tr>
 </table>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=knqiufan&layout=compact&theme=tokyonight" alt="Top Languages" width="45%" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=knqiufan&theme=tokyo-night" alt="Contribution Graph" width="98%" />
