@@ -6,7 +6,7 @@
       <img src="https://github-stats-extended.vercel.app/api?username=knqiufan&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com?user=knqiufan&theme=tokyonight" alt="GitHub Streak" width="100%" />
+      <img src="./profile/streak.svg" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
 </table>
