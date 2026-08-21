@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - ".github/workflows/streak-stats.yml"
+      - "scripts/**"
   workflow_dispatch:
 
 jobs:
@@ -17,12 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
+      - uses: actions/setup-node@v4
         with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&disable_animations=true&timezone=Asia/Shanghai
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: "24"
+
+      - name: Generate streak stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/generate-streak.js
 
       - name: Commit streak stats
         run: |

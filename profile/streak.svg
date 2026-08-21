@@ -14,14 +14,12 @@
     <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#1A1B27" stroke="#E4E2E2"/>
     <line x1="165" y1="28" x2="165" y2="170" stroke="#E4E2E2" stroke-width="1"/>
     <line x1="330" y1="28" x2="330" y2="170" stroke="#E4E2E2" stroke-width="1"/>
-
     <text x="82.5" y="80" text-anchor="middle" fill="#70A5FD"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">995</text>
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">994</text>
     <text x="82.5" y="116" text-anchor="middle" fill="#70A5FD"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="14px">Total Contributions</text>
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="14px">Total Contributions</text>
     <text x="82.5" y="146" text-anchor="middle" fill="#38BDAE"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12px">Nov 30, 2017 - Present</text>
-
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="12px">Nov 30, 2017 - Present</text>
     <circle cx="247.5" cy="71" r="40" fill="none" stroke="#70A5FD" stroke-width="5"
       mask="url(#mask_out_ring_behind_fire)"/>
     <path transform="translate(235.5,19.5)" fill="#70A5FD"
@@ -29,15 +27,14 @@
     <text x="247.5" y="80" text-anchor="middle" fill="#BF91F3"
       font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">1</text>
     <text x="247.5" y="140" text-anchor="middle" fill="#BF91F3"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="14px">Current Streak</text>
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="14px">Current Streak</text>
     <text x="247.5" y="177" text-anchor="middle" fill="#38BDAE"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12px">Aug 21</text>
-
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="12px">Aug 21</text>
     <text x="412.5" y="80" text-anchor="middle" fill="#70A5FD"
       font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">21</text>
     <text x="412.5" y="116" text-anchor="middle" fill="#70A5FD"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="14px">Longest Streak</text>
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="14px">Longest Streak</text>
     <text x="412.5" y="146" text-anchor="middle" fill="#38BDAE"
-      font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12px">Jun 28 - Jul 18</text>
+      font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="12px">Jun 28 - Jul 18</text>
   </g>
 </svg>
