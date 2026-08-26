@@ -91,4 +91,11 @@ function calculateStreaks(days) {
   };
 }
 
-module.exports = { calculateStreaks, formatDate, formatRange };
+module.exports = {
+  MONTHS,
+  addDays,
+  calculateStreaks,
+  formatDate,
+  formatRange,
+  todayInZone,
+};

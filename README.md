@@ -12,5 +12,5 @@
 </table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=knqiufan&theme=tokyo-night" alt="Contribution Graph" width="98%" />
+  <img src="./profile/activity-graph.svg" alt="Contribution Graph" width="98%" />
 </p>

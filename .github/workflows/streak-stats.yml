@@ -1,4 +1,4 @@
-name: Update streak stats
+name: Update profile cards
 
 on:
   schedule:
@@ -28,10 +28,16 @@ jobs:
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: node scripts/generate-streak.js
 
-      - name: Commit streak stats
+      - name: Generate activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/generate-graph.js
+
+      - name: Commit profile cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
-          git commit -m "Update streak stats" || exit 0
+          git add profile/streak.svg profile/activity-graph.svg
+          git commit -m "Update profile cards" || exit 0
           git push
